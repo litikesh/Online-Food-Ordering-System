@@ -1,0 +1,138 @@
+.confirmOrderArea {
+  /* padding: 1vmax 0; */
+  padding-bottom: 0%;
+}
+
+.confirmOrderArea > p {
+  font-size: 0.5vmax;
+  font-weight: 400;
+}
+
+.confirmOrderAreaBox {
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0px #faf7f7;
+  margin: 1.5vmax 0;
+  padding: 1.5vmax !important;
+}
+
+.confirmOrderAreaBox > div {
+  display: flex;
+  margin: 0.5vmax 0;
+}
+
+.confirmOrderAreaBox > div > p {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.confirmOrderAreaBox > div > span {
+  margin: 0 0.5vmax;
+  font-size: 18px;
+  font-weight: 500;
+  color: #575757;
+}
+
+.Order__Updated {
+  width: 480px;
+  margin: 50px 0;
+  margin-left: 30px !important;
+  margin-right: 10px !important;
+
+  /* width: 100%; */
+  background: #fff;
+  /* border-radius: 0.5rem; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  align-self: flex-start;
+  padding: 2rem;
+}
+.Order__Updated > h2 {
+  margin-top: -5px;
+  align-items: center;
+  text-align: center;
+}
+
+.Order__Updated > p {
+  margin-top: 3px;
+  color: #acacad;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.Order__Updated .PayButtons {
+  margin-top: 2rem;
+  flex-direction: column;
+}
+
+.Order__Updated .PayButtons .anybtn {
+  border-radius: 0.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem !important;
+  width: 100%;
+
+  transition: 0.4s ease-in-out;
+}
+
+.buttonPrimary:hover,
+.buttonPrimary:focus,
+.buttonSecondary:hover,
+.buttonSecondary:focus {
+  transition: 0.4s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.Order__Updated .PayButtons .buttonPrimary {
+  white-space: nowrap;
+  text-transform: uppercase;
+  background-color: var(--saffron);
+  box-shadow: 0 0.5rem 1rem rgb(99 91 255 / 15%);
+  color: #fff;
+}
+
+.Order__Updated .anybtn.outline {
+  /* border: 2px solid #687ced; */
+  margin-left: 0;
+  padding: 0.875rem 1rem !important;
+  margin-top: 1rem !important;
+  color: rgba(99, 91, 255, 0.9);
+  background: none;
+  border: 2px solid rgba(99, 91, 255, 0.5);
+  box-shadow: 0 0.5rem 1rem rgb(99 91 255 / 15%);
+}
+
+.payment__summaryList {
+  margin-top: 1.5rem;
+}
+
+.Order__Updated .anybtn.outline img {
+  width: auto;
+  height: 1.5rem;
+  margin-right: unset;
+}
+
+.updateOrderForm > div {
+  margin: 20px 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.par {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: left;
+}
+.updateOrderForm > div > .icon__red {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 25px;
+}

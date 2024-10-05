@@ -1,0 +1,38 @@
+:root {
+  /* ===== Colors ===== */
+  --body-color: #fafafb;
+  --sidebar-color: #fff;
+  --primary-color: #695cfe;
+  --primary-color-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text-color: #707070;
+
+  /* ====== Transition ====== */
+  --tran-03: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+}
+
+.Admin__dashboard {
+  min-height: 100vh;
+
+  background-color: var(--body-color);
+}
+
+.Admin__home {
+  position: absolute;
+  top: 0;
+  top: 0;
+
+  left: 250px;
+  height: 100vh;
+  width: calc(100% - 250px);
+  background-color: var(--body-color);
+  transition: var(--tran-05);
+}
+
+.homeWidgets {
+  display: flex;
+  margin: 20px;
+}

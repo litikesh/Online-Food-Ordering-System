@@ -1,0 +1,36 @@
+.order__container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 100px 0 60px 0;
+  padding: 40px 0;
+  /* background: #ebf0f5; */
+}
+
+.sucess__title {
+  color: #88b04b;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.sucess__desc {
+  color: #404f5e;
+  font-size: 20px;
+  margin: 0;
+}
+
+.checkmark {
+  color: #9abc66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left: -15px;
+}
+.order__card {
+  background: white;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: inline-block;
+  margin: 0 auto;
+}

@@ -1,0 +1,65 @@
+.table-data {
+  margin: 20px 10px;
+  margin-bottom: 80px;
+  display: grid;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px #e1e5ee;
+  background-color: white;
+  text-align: left;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+}
+thead {
+  box-shadow: 0 5px 10px #e1e5ee;
+}
+
+th {
+  padding: 1.5rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+td {
+  padding: 1rem 2rem;
+}
+
+.status {
+  border-radius: 0.2rem;
+  background-color: red;
+  padding: 0.2rem 1rem;
+  text-align: center;
+}
+
+.status.processing {
+  background-color: #fff0c2;
+  color: #a68b00;
+}
+
+.status.paid {
+  background-color: #c8e6c9;
+  color: #388e3c;
+}
+
+.amount {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f6fb !important;
+}
+
+.order_act {
+  color: black;
+}
+.order_act:hover {
+  color: #9daaf2;
+}

@@ -1,0 +1,118 @@
+.orderContainer {
+  width: 100%;
+  margin: 30px 20px 30px 20px;
+  display: flex;
+}
+
+.Heading {
+  letter-spacing: 1px;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heading h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.orderLeft__Container {
+  flex: 2;
+  margin-right: 30px;
+}
+.orderRight__Container {
+  flex: 1;
+  margin-right: 30px;
+}
+.Order__row {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.Order__row:last-child {
+  width: 98%;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.order__status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inProgress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: inProgress 1s ease infinite alternate !important;
+}
+
+@keyframes inProgress {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.undone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.3;
+}
+
+.undone .Order__checkedIcon,
+.inProgress .Order__checkedIcon {
+  display: none;
+}
+
+.order__wrapper {
+  margin-left: 5px;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.order__title {
+  margin-top: -5px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.order__totalText {
+  display: flex;
+  justify-content: space-between;
+}
+.order__totalTextTitle {
+  margin: 10px 0;
+}
+
+.orderSuc {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.orderSuc > span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.order__button {
+  font-weight: bold;
+  cursor: not-allowed;
+}

@@ -1,0 +1,64 @@
+.Admin__dashboard {
+  display: flex;
+}
+
+.Admin__home {
+  flex: 1;
+  padding: 20px;
+}
+
+#productListHeading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-list-table th,
+.product-list-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-list-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.productListItem {
+  display: flex;
+  align-items: center;
+}
+
+.productListImg {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.productListEdit {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.productListDelete {
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.productListEdit:hover {
+  background-color: #2c387e;
+}
+
+.productListDelete:hover {
+  color: darkred;
+}
