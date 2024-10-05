@@ -29,7 +29,6 @@ This is a full-stack Food Ordering System built with a Node.js backend and a Rea
 - [Scripts](#scripts)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies
 
@@ -147,7 +146,3 @@ Once both the server and frontend are running, access the application at [http:/
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
-
-## License
-
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for more information.
